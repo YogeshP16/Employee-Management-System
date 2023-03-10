@@ -1,10 +1,13 @@
 # Project Overview
-Employee management system using Spring Boot, Thymeleaf, MYSQL database. 
-EMS is CRUD based web application with the following features:
-* Get all the employees
-* Add a new employee
-* update an employee
-* delete an employee
+
+Employee Management System.
+
+
+The employee management system built using Spring Boot and Thymeleaf is a web-based application that allows managers to manage and keep track of employee information. The system includes a login page to ensure secure access, a dashboard displaying the employee list, and the ability to add, update, and delete employee data.
+
+The system uses the Spring Boot framework to provide a simple, lightweight, and scalable application, with Thymeleaf as the template engine for building user interfaces. The application uses a Model-View-Controller (MVC) architecture to separate the data, presentation, and control logic, which makes the code maintainable, testable, and reusable.
+
+The employee management system stores employee data in a database and retrieves it using Spring Data JPA. The application implements basic CRUD (Create, Read, Update, Delete) operations, allowing managers to add new employees, view existing employee information, update employee data, and delete employees from the system.
 
 # Requirements:
 

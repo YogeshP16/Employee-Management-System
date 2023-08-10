@@ -1,6 +1,6 @@
 # Project Overview
 
-Employee Management System.
+**Employee Management System**
 
 
 The employee management system built using Spring Boot and Thymeleaf is a web-based application that allows managers to manage and keep track of employee information. The system includes a login page to ensure secure access, a dashboard displaying the employee list, and the ability to add, update, and delete employee data.

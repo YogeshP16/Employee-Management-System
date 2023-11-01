@@ -1,9 +1,9 @@
 # Project Overview
 
-**Employee Management System**
+**Workforce Administration Tool**
 
 
-The employee management system built using Spring Boot and Thymeleaf is a web-based application that allows managers to manage and keep track of employee information. The system includes a login page to ensure secure access, a dashboard displaying the employee list, and the ability to add, update, and delete employee data.
+The Workforce Administration Tool built using Spring Boot and Thymeleaf is a web-based application that allows managers to manage and keep track of employee information. The system includes a login page to ensure secure access, a dashboard displaying the employee list, and the ability to add, update, and delete employee data.
 
 The system uses the Spring Boot framework to provide a simple, lightweight, and scalable application, with Thymeleaf as the template engine for building user interfaces. The application uses a Model-View-Controller (MVC) architecture to separate the data, presentation, and control logic, which makes the code maintainable, testable, and reusable.
 

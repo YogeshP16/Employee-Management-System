@@ -16,11 +16,6 @@ The employee management system stores employee data in a database and retrieves 
 * Maven 2.5.
 * MYSQL Database.
 
-# Showcase
-![Screenshot (2)](https://user-images.githubusercontent.com/121794280/222221073-83a4de37-71a6-4eed-9d64-bc8670c69b36.png)
-
-![Screenshot (4)](https://user-images.githubusercontent.com/121794280/222221101-6466f1b1-6caf-4e98-9d2d-b2d00aef19d3.png)
-
 # HOW TO RUN THIS PROJECT?# FROM THE IDE:
 
 * Open the project in an IDE like Eclipse STS.

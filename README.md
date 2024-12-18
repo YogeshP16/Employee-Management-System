@@ -1,27 +1,18 @@
-# Project Overview
+# **Workforce Administration Tool**
 
-**Workforce Administration Tool**
+A web-based employee management system built with Spring Boot and Thymeleaf. It allows managers to securely manage employee data (add, update, delete) through a simple UI. The application uses the MVC architecture and stores data in a MySQL database with Spring Data JPA.
+
+## **Requirements:**
+- Spring Tool Suite IDE
+- JDK 8
+- Maven 2.5
+- MySQL Database
+
+## **How to Run:**
+1. Open the project in an IDE like Eclipse STS.
+2. Run the provided DBScript in MySQL to create the database.
+3. Update database credentials in `src/main/resources/application.properties`.
+4. Run the application using "Run As Java Application".
+5. Open your browser and go to [http://localhost:8080](http://localhost:8080).
 
 
-The Workforce Administration Tool built using Spring Boot and Thymeleaf is a web-based application that allows managers to manage and keep track of employee information. The system includes a login page to ensure secure access, a dashboard displaying the employee list, and the ability to add, update, and delete employee data.
-
-The system uses the Spring Boot framework to provide a simple, lightweight, and scalable application, with Thymeleaf as the template engine for building user interfaces. The application uses a Model-View-Controller (MVC) architecture to separate the data, presentation, and control logic, which makes the code maintainable, testable, and reusable.
-
-The employee management system stores employee data in a database and retrieves it using Spring Data JPA. The application implements basic CRUD (Create, Read, Update, Delete) operations, allowing managers to add new employees, view existing employee information, update employee data, and delete employees from the system.
-
-# Requirements:
-
-* Spring Tool Suite IDE.
-* JDK 8.
-* Maven 2.5.
-* MYSQL Database.
-
-# HOW TO RUN THIS PROJECT?# FROM THE IDE:
-
-* Open the project in an IDE like Eclipse STS.
-* You can run the DBScript provided in MySQL to create database 
-* Check your database connection in src/main/resources/application.properties file and change the user name & password. Creating database is necessary since hibernate-     update option is used : "spring.jpa.hibernate.ddl-auto = update").
-* Hit "Run As Java Application" in the IDE
-* Check if localhost server has started.
-* Open Google chrome.
-* Hit url : "http://localhost:8080/
